@@ -45,12 +45,14 @@ Create basic HTML file:
 > type nul > index.html
 
 Open index.html in an editor and add the following lines of HTML:
-> <!DOCTYPE html>
-> <html>
-> <body>
-> Hello there!
-> </body>
-> </html>
+```
+<!DOCTYPE html>
+<html>
+<body>
+Hello there!
+</body>
+</html>
+```
 
 ## Statically provide the front-end to the NodeJS back-end
 Add the following line on line 3 to include a local directory:
